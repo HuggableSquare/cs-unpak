@@ -1,5 +1,5 @@
 import SteamUser from 'steam-user';
-import { CSUnpak } from './index.js';
+import CSUnpak from './index.js';
 import { writeFile } from 'fs/promises';
 
 const cred = {
