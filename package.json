@@ -1,34 +1,16 @@
 {
-  "name": "csgo-cdn",
-  "version": "1.2.0",
-  "description": "Retrieves the Steam CDN URLs for CS:GO Item Images",
+  "name": "cs-unpak",
+  "version": "1.0.0",
+  "description": "efficiently unpack files from cs2 vpks",
+  "author": "HuggableSquare <huggablesquare@gmail.com>",
+  "repository": "github:huggablesquare/cs-unpak",
   "main": "index.js",
   "license": "MIT",
-  "keywords": [
-    "steam",
-    "csgo",
-    "global offensive",
-    "csgo",
-    "stickers",
-    "cdn",
-    "images"
-  ],
+  "type": "module",
   "dependencies": {
-    "bluebird": "^3.5.1",
     "hasha": "^3.0.0",
-    "simple-vdf": "^1.1.0",
-    "steam-totp": "^2.0.1",
-    "steam-user": "^4.19.2",
+    "steam-user": "^5.0.1",
     "vpk": "0.2.0",
     "winston": "^3.0.0-rc1"
-  },
-  "author": {
-    "name": "Stepan Fedorko-Bartos",
-    "email": "Step7750@gmail.com",
-    "url": "http://stepan.me"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Step7750/node-csgo-cdn.git"
   }
 }
